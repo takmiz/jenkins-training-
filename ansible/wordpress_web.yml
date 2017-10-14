@@ -1,7 +1,7 @@
 ---
 - name: wordpress環境構築 for web
   hosts: web
-  remote_user: vagrant
+  remote_user: ec2-user
   become: yes
 
   vars:
